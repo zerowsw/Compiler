@@ -1,0 +1,37 @@
+/**
+ * IF-ELSE 测试
+ * 
+ * IF-ELSE 测试 主要是：
+ * 1.条件判断
+ * 2.语句执行
+ * 3.IF-ELSE 嵌套
+ */
+void main(){
+	int a;
+	a=1;
+	if(a * 5 == 5)
+	{
+ 	 	int r ;
+  		r = 2;
+  		if(r<>0){
+		write(r);
+  		}
+	}
+	else
+	{
+  	 a=5;
+  	 write(a);
+	} 
+
+	//if 嵌套
+	int aa = 3;
+	if(aa < 4){
+		if(2 < aa)
+			if(aa <> 3)
+				write(aa);
+			else {
+				int a2 = aa-2;
+				write(a2);
+			}
+	}
+}

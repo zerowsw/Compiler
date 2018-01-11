@@ -1,0 +1,16 @@
+/**
+ * 阶乘测试
+ * 
+ * 阶乘测试 主要是
+ * a = N!,其中N为整数
+ */ 
+void main(){
+	int a = 6;
+	int factorial = 1;
+	while( a <> 0 )
+	{
+		factorial = factorial * a;
+		a = a -1;
+	}
+	write( factorial );
+}

@@ -1,0 +1,25 @@
+/*
+ *º¯ÊıÖØÔØ²âÊÔ
+ *
+ */
+
+real func(int i,real w){
+   return i*w;
+}
+
+real func(real i,real h){
+   return i/h;
+}
+
+real func(int i, real k, real w){
+   return i+k+w;
+}
+
+void main(){
+    int i = 1;
+    real k  =  10;
+    real w = 100;
+    write(func(i,k)*10);
+    write(func(k,w)*10);
+    write(func(i,k,w)*10);
+}

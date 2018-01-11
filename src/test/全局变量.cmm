@@ -1,0 +1,15 @@
+/*
+ *全局变量的声明和使用
+ */
+ 
+int i = 12;
+
+void function(){
+ 	write(i);
+}
+
+void main(){
+        function();
+	i = 13;
+        function();
+}

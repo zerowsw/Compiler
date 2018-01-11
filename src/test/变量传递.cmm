@@ -1,0 +1,15 @@
+//±äÁ¿´«µÝ
+void main(){
+	real r2 = 5;
+	int a2 = 3;
+	r2 = a2;
+	if(r2 == 3)
+	{
+		write(1);
+	}
+	else
+		write(0);
+
+	r2 = a2 ;
+	write(r2);
+}

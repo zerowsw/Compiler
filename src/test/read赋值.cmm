@@ -1,0 +1,6 @@
+//read¸³Öµ
+void main(){
+	real r;
+	read(r);
+	write(r);
+}

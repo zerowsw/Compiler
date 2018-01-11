@@ -1,0 +1,16 @@
+/*
+ *For—≠ª∑”Ôæ‰≤‚ ‘
+ * 
+ */
+
+void main(){
+
+	int count;
+	read(count);
+
+	for(int i = 0;i<count;i=i+1){
+	  	if(i>0){
+			write(i);
+		}
+	}
+}

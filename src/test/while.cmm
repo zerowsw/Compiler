@@ -1,0 +1,24 @@
+/**
+ * WHILE 测试
+
+ * WHILE 测试 主要是：
+ * 1.条件判断
+ * 2.语句执行
+ * 3.WHILE嵌套
+ */
+
+void main(){
+	int a = 4;
+	while(a <> 0)
+	{
+		write(a);
+		int j=a-1;
+		while(0 < j)
+		{
+			write(j);
+			j=j-1;
+		}
+		a=a-1;
+}
+
+
